@@ -14,20 +14,13 @@
 
 **รูปหน้าจอ (Screenshots)**
 
-- หน้าแรก: `images/index.png`
+- หน้าแรก: [`images/index.png`](index.png)
   ![Index page](images/index.png)
-- เกี่ยวกับ: `images/about.png`
+- เกี่ยวกับ: [`images/about.png`](about.png)
   ![About page](images/about.png)
-- บริการ: `images/services.png`
+- บริการ: [`images/services.png`](services.png)
   ![Services page](images/services.png)
-- ติดต่อ: `images/contact.png`
+- ติดต่อ: [`images/contact.png`](contact.png)
   ![Contact page](images/contact.png)
 
-
-**ลิงก์ไปยังแต่ละหน้า (ไฟล์ภายในโปรเจค):**
-
-- หน้าแรก: `index.html` — ./index.html
-- เกี่ยวกับ: `about.html` — ./about.html
-- บริการ: `services.html` — ./services.html
-- ติดต่อ: `contact.html` — ./contact.html
 
