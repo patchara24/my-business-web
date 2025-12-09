@@ -20,6 +20,47 @@
     <header>
         <h1>ติดต่อ Lime Invest</h1>
     </header>
+
+     <main>
+        <!-- ส่วนนี้มี fieldset -->
+        <section>
+            <h2>Contact Us</h2>
+            <fieldset>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required />
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required />
+                <label for="firstname">Middle Name:</label>
+                <input type="text" id="middlename" name="middlename" placeholder="If don't have one, leave blank" />
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required />
+                <br>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required />
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <input type="radio" id="male" name="gender" value="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    <input type="text" id="other-text" name="other-text" placeholder="Please specify">
+                </fieldset>
+                <fieldset>
+                    <legend>Text:</legend>
+                    <textarea id="more" name="more" placeholder="Write here" rows="5" cols="40" required></textarea>
+                </fieldset>
+                <input type="checkbox" id="agree" name="agree" required />
+                <label for="agree">Click here to agree to our term of service</label>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Cancel</button>
+        </section>
+
+        <hr>
 </body>
 
 </html>
