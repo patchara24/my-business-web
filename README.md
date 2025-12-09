@@ -1,4 +1,4 @@
-# Lime Invest — Assignment 1
+# Lime Invest 
 
 **คำอธิบายโปรเจค:**
 - ชื่อ: Lime Invest
