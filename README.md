@@ -14,13 +14,13 @@
 
 **รูปหน้าจอ (Screenshots)**
 
-- หน้าแรก: [`images/index`](index.html)
+- หน้าแรก: [`index`](index.html)
   ![Index page](images/index.png)
-- เกี่ยวกับ: [`images/about`](about.html)
+- เกี่ยวกับ: [`about`](about.html)
   ![About page](images/about.png)
-- บริการ: [`images/services`](services.html)
+- บริการ: [`services`](services.html)
   ![Services page](images/services.png)
-- ติดต่อ: [`images/contact`](contact.html)
+- ติดต่อ: [`contact`](contact.html)
   ![Contact page](images/contact.png)
 
 
