@@ -4,53 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lime</title>
+    <title>Lime Invest</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">หน้าแรก</a>
-        <a href="about.html">เกี่ยวกับ</a>
-        <a href="services.html">บริการ</a>
-        <a href="contact.html">ติดต่อ</a>
-    </nav>
-    <hr>
-    
-    <!-- Header Section -->
+    <!-- Header & Navigation -->
     <header>
-        <img src="images/logo.png" alt="Lime" style="width: 300px">
-        <h1>Lime Invest</h1>
-        <p>ธนาคารเพื่อการลงทุน</p>
+        <div class="container" id="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Lime Invest">
+                <!-- Adjusted for header -->
+            </div>
+            <nav>
+                <a href="index.html">หน้าแรก</a>
+                <a href="about.html">เกี่ยวกับ</a>
+                <a href="services.html">บริการ</a>
+                <a href="contact.html">ติดต่อ</a>
+            </nav>
+        </div>
     </header>
-    <hr>
 
     <!-- Hero Section -->
     <main>
-        <section>
-            <h2>Welcome to Lime Invest</h2>
+        <section class="hero">
+            <h1>Welcome to Lime Invest</h1>
             <p>แพลตฟอร์มการลงทุนดิจิทัล เพื่ออนาคตทางการเงินของคุณ</p>
+            <a href="services.html" class="btn">เริ่มต้นลงทุน</a>
         </section>
-
-        <hr>
 
         <!-- Featured Services -->
-        <section>
-            <h2>บริการหลักของเรา</h2>
-            <ul>
-                <li>การลงทุนหุ้นไทยและต่างประเทศ</li>
-                <li>กองทุนรวมเพื่อการออม</li>
-                <li>ที่ปรึกษาการลงทุน</li>
-            </ul>
+        <section class="section container">
+            <h2 style="text-align: center;">บริการหลักของเรา</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>หุ้นไทยและต่างประเทศ</h3>
+                    <p>เข้าถึงตลาดหุ้นทั่วโลกได้ง่ายๆ ในบัญชีเดียว</p>
+                </div>
+                <div class="service-card">
+                    <h3>กองทุนรวม</h3>
+                    <p>คัดสรรกองทุนเด่นจากหลากหลาย บลจ. เพื่อการออม</p>
+                </div>
+                <div class="service-card">
+                    <h3>ที่ปรึกษาการลงทุน</h3>
+                    <p>วางแผนการเงินกับผู้เชี่ยวชาญส่วนตัว</p>
+                </div>
+            </div>
         </section>
     </main>
-    <hr>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Lime Invest</p>
+    <footer id="footer">
+        <p>&copy; 2025 Lime Invest. All rights reserved.</p>
     </footer>
-    <hr>
+
 </body>
+
 </html>

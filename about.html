@@ -4,55 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lime</title>
+    <title>Lime Invest - About</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav>
-        <a href="index.html">หน้าแรก</a>
-        <a href="about.html">เกี่ยวกับ</a>
-        <a href="services.html">บริการ</a>
-        <a href="contact.html">ติดต่อ</a>
-    </nav>
-    <hr>
-
     <header>
-        <h1>เกี่ยวกับ Lime Invest</h1>
+        <div class="container" id="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Lime Invest">
+            </div>
+            <nav>
+                <a href="index.html">หน้าแรก</a>
+                <a href="about.html">เกี่ยวกับ</a>
+                <a href="services.html">บริการ</a>
+                <a href="contact.html">ติดต่อ</a>
+            </nav>
+        </div>
     </header>
 
-    <!-- เรื่องราวบริษัท -->
-    <section>
-        <h2>เรื่องราวของบริษัท</h2>
-        <p>
-            Lime Invest ก่อตั้งขึ้นเพื่อช่วยให้ทุกคนสามารถเริ่มต้นลงทุน
-            ได้ง่าย ปลอดภัย และเข้าถึงได้ผ่านระบบออนไลน์
-        </p>
-    </section>
+    <main class="container">
+        <header style="text-align: center; margin-bottom: 2rem; box-shadow: none; position: static;">
+            <h1>เกี่ยวกับ Lime Invest</h1>
+        </header>
 
-     <!-- ทีมงาน -->
-    <section>
-        <h2>ทีมงาน</h2>
+        <!-- เรื่องราวบริษัท -->
+        <section class="section">
+            <h2>เรื่องราวของบริษัท</h2>
+            <p>
+                Lime Invest ก่อตั้งขึ้นเพื่อช่วยให้ทุกคนสามารถเริ่มต้นลงทุน
+                ได้ง่าย ปลอดภัย และเข้าถึงได้ผ่านระบบออนไลน์
+                เราเชื่อมั่นในพลังของเทคโนโลยีที่จะเปลี่ยนโลกการเงินให้เท่าเทียมยิ่งขึ้น
+            </p>
+        </section>
 
-        <figure>
-            <img src="images\poom.jpg" alt="CEO" width="200">
-            <figcaption>นายพชร ปฏิมาการ - CEO</figcaption>
-        </figure>
+        <!-- ทีมงาน -->
+        <section class="section">
+            <h2 style="text-align: center;">ทีมงานระดับบริหาร</h2>
 
-        <figure>
-            <img src="images\Tuco-Salamanca-1.webp" alt="CTO" width="200">
-            <figcaption>Mr. Tuco Salamanca - CFO</figcaption>
-        </figure>
-    </section>
+            <div class="team">
+                <div class="team-member">
+                    <img src="images/poom.jpg" alt="CEO">
+                    <h3>นายพชร ปฏิมาการ</h3>
+                    <p>Chief Executive Officer (CEO)</p>
+                </div>
 
-     <!-- Mission / Vision -->
-    <section>
-        <h2>Mission & Vision</h2>
-        <p><b>Mission:</b> ทำให้การลงทุนเป็นเรื่องง่ายสำหรับทุกคน</p>
-        <p><b>Vision:</b> เป็นธนาคารเพื่อการลงทุนดิจิทัลชั้นนำของไทย</p>
-    </section>
+                <div class="team-member">
+                    <img src="images/Tuco-Salamanca-1.webp" alt="CFO">
+                    <h3>Mr. Tuco Salamanca</h3>
+                    <p>Chief Financial Officer (CFO)</p>
+                </div>
+            </div>
+        </section>
 
-     <a href="index.html">กลับหน้าแรก</a>
+        <!-- Mission / Vision -->
+        <section class="section" style="background-color: var(--neutral-light); border-radius: 8px; padding: 2rem;">
+            <h2>Mission & Vision</h2>
+            <p><b>Mission:</b> ทำให้การลงทุนเป็นเรื่องง่ายสำหรับทุกคน ผ่านแพลตฟอร์มที่ใช้งานง่ายและข้อมูลที่โปร่งใส</p>
+            <p><b>Vision:</b> เป็นธนาคารเพื่อการลงทุนดิจิทัลชั้นนำของไทย ที่ได้รับความไว้วางใจสูงสุด</p>
+        </section>
+
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="index.html" class="btn">กลับหน้าแรก</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2025 Lime Invest. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
